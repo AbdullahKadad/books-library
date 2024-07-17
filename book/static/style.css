@@ -1,0 +1,110 @@
+body{
+    background-color: #606C5D;
+}
+header{
+    padding: 20px;
+}
+header h1{
+    color: #F1C376;
+}
+header ul {
+    list-style: none;
+}
+header ul a{
+    color: #F7E6C4;
+}
+
+.maindiv{
+    color: #FFF4F4;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.maindiv a button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F1C376;
+    color: #F7E6C4;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    font-size: 18px;
+    color: #FFF4F4;
+}
+footer a{
+    color: #F1C376;
+}
+
+.table .table-title{
+    padding: 0px 60px;
+    color: #F1C376;
+    font-size: 18px;
+}
+.table .table-table{
+    padding: 0px 60px;
+}
+.table .table-table table{
+    border-collapse: collapse;
+    border: 2px solid rgb(144, 212, 115);
+}
+.table .table-table table td,th{
+    padding: 10px 15px;
+    color: #FFF4F4;
+}
+.table .table-table table td a{
+    color: #f7e6a0;
+}
+.table .table-table table tfoot{
+    text-align: center;
+}
+.return{
+    padding: 0px 20px;
+}
+.return a{
+    color: #f7e6a0;
+}
+.book-title{
+    padding: 0px 60px;
+    color: #F1C376;
+    font-size: 18px;
+}
+
+.book-table{
+    padding: 0px 60px;
+}
+.book-table table{
+    border-collapse: collapse;
+    border: 2px solid rgb(144, 212, 115);
+}
+
+.book-table table th, td{
+    padding: 10px 15px;
+    color: #FFF4F4;
+}
+.book-table table tfoot{
+    text-align: center;
+}
+.summary{
+    padding: 20px;
+}
+
+.summary h4{
+    padding: 0px 40px;
+    color: #F1C376;
+    font-size: 20px;
+}
+
+.summary p{
+    padding: 0px 50px;
+    color: #FFF4F4;
+    font-size: 18px;
+}

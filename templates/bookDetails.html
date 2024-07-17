@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}Books Library{% endblock title %}
+{% block content %}
+    <div class="return">
+        <a href="{% url 'books' %}"> ← Books List</a>
+    </div>
+    <div class="book-title">
+        <h3>
+            Book: {{ book.title }}
+        </h3>
+    </div>
+    <div class="book-table">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Rating</th>
+                    <th>Publish Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ book.description }}</td>
+                    <td>{{ book.rating }}</td>
+                    <td>{{ book.publish_date }}</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Author: {{ book.author }}</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="summary">
+        <h4>
+            Summary: 
+        </h4>
+        <p>{{ book.title }} by {{ book.author }}, Rating: {{ book.rating }}</p>
+    </div>
+{% endblock content %}
